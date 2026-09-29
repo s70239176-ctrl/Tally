@@ -8,13 +8,15 @@
 | RPC / chain id | `https://studio.genlayer.com/api` / 61999 |
 | Contract | `0x61F175c829F444A3715E14c6CffF4876F02CC20B` |
 | Explorer | https://explorer-studio.genlayer.com/address/0x61F175c829F444A3715E14c6CffF4876F02CC20B |
-| Deployed by | the repository owner, from Studio (deployer address and deploy tx hash **not yet recorded**; to be added by the owner) |
+| Deployer | `0x5F512824Eb3785Fa3F3532158c288A27B9b5Fc58` (the repository owner, via Studio) |
+| Deployment tx | `0x353f11290bb3047801076d3c31a9cf16d81938a17dd35098902ed882ec041874` |
+| Deployment lifecycle | **FINALIZED**, result **MAJORITY_AGREE** (3 validators agree, 2 idle), observed on-chain on 2026-09-29; tx type is deploy, `from` = deployer, `to` = the contract address above |
 | Deployed source | 17,113 bytes, SHA-256 `0edb3854739a39ff0046c6c341e64ad7f7ba914458efa809656afd90f9ef2555` |
 | Contract git blob | `87bfea28614d6b6483e221af7b22c4c45d1dd8fb` |
 | Source parity | **MATCH**: the code read from the network via `gen_getContractCode` is byte-identical to `contracts/uptime_sla.py` at commit `55091e8` and at every later commit that leaves that file unchanged |
 | Deployed schema | 12 methods (8 view, 4 write), no-argument constructor |
 
-Checked on 2026-09-29. The deployment transaction's own lifecycle/finality has not been inspected here.
+Checked on 2026-09-29.
 
 Tooling: Python 3.14.3, genlayer-test 0.29.2, genlayer-py 0.16.3, genvm-linter 0.11.0, GenVM SDK v0.2.16.
 

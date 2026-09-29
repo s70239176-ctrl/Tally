@@ -14,7 +14,7 @@ deterministic SLA claim (BREACHED / MET plus a credit tier) that other contracts
 **Explorer URL (genlayer-explorer-contract):**
 https://explorer-studio.genlayer.com/address/0x61F175c829F444A3715E14c6CffF4876F02CC20B
 
-**Deployment tx:** _to be added by the deployer_ (not yet provided)
+**Deployment tx:** `0x353f11290bb3047801076d3c31a9cf16d81938a17dd35098902ed882ec041874` (deployer `0x5F512824Eb3785Fa3F3532158c288A27B9b5Fc58`; status FINALIZED, MAJORITY_AGREE)
 
 **Deployment source:** `contracts/uptime_sla.py`, git blob `87bfea28614d6b6483e221af7b22c4c45d1dd8fb`, byte-identical to the
 code read from the deployed address (`docs/DEPLOYMENT.md`).
