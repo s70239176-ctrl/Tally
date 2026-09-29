@@ -1,4 +1,4 @@
-# Integrating UptimeSLA
+# Integrating Tally (`UptimeSLA`)
 
 A consumer contract needs no web access, no prompts and no knowledge of probing. It reads a claim.
 

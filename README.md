@@ -1,6 +1,6 @@
-# UptimeSLA: consensus-witnessed uptime claims for API agents
+# Tally: consensus-witnessed uptime claims for API agents
 
-`UptimeSLA` is a standalone GenLayer Intelligent Contract. A provider registers an immutable SLA for an HTTPS
+Tally (contract class `UptimeSLA`) is a standalone GenLayer Intelligent Contract. A provider registers an immutable SLA for an HTTPS
 endpoint. Validators independently probe the endpoint and agree on UP / DOWN / UNREACHABLE. The named consumer can then
 open a claim, and deterministic arithmetic over the consensus-witnessed probes returns BREACHED or MET with a credit tier.
 The contract moves no funds; other contracts read `is_breached` / `credit_bps`.

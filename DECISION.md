@@ -1,4 +1,4 @@
-# Decision record
+# Tally: decision record
 
 ## Selection
 
