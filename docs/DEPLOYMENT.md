@@ -25,8 +25,8 @@ Tooling: Python 3.14.3, genlayer-test 0.29.2, genlayer-py 0.16.3, genvm-linter 0
 Produced by `tests/evidence/test_canonical_evidence.py`, run against the address above. Provider
 `0x0485a76A62c714BaBf5315aBcfCf3BCDA910Ad5B`, consumer `0xcA46aC8f6Ca31d6218e0D7c48591C5489acFEE24` (a throwaway
 account generated for the run). Endpoints: `https://httpbin.org/status/200` and `/status/503`. Every transaction
-below reported status **ACCEPTED** and result **MAJORITY_AGREE**. None was observed as FINALIZED, and this document does
-not claim finality.
+below reported status **ACCEPTED** and result **MAJORITY_AGREE**. The deployment transaction itself was observed FINALIZED (above); these probe/claim
+transactions were recorded when ACCEPTED, and their later finalization was not re-checked.
 
 | Scenario | Action | Tx | Stored result |
 |---|---|---|---|
