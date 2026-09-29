@@ -13,7 +13,7 @@ The contract moves no funds; other contracts read `is_breached` / `credit_bps`.
 | GenVM AST lint (`genvm-lint` 0.11.0) | passed (3 checks) |
 | GenVM SDK validate (`genvm-lint check`) | passed, exit 0 (12 methods: 8 view, 4 write). Note: it reports a newer py-genlayer runner exists than the one pinned in the header |
 | Studionet integration (`tests/integration`) | 3 passed, real consensus, disposable deployments |
-| Canonical Studionet deployment / source parity | **not done yet**, see `docs/DEPLOYMENT.md` |
+| Canonical Studionet deployment | `0x61F175c829F444A3715E14c6CffF4876F02CC20B`, source byte-identical to `main`; live MET and BREACHED claims recorded, see `docs/DEPLOYMENT.md` (txs ACCEPTED, not observed FINALIZED) |
 
 Environment: Python 3.14.3, genlayer-test 0.29.2, genlayer-py 0.16.3, GenVM SDK v0.2.16.
 
