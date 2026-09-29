@@ -34,8 +34,7 @@ disagreement changes no state.
 **Reuse surface:** `is_breached`, `credit_bps`, `claim_matches_definition` (`docs/INTEGRATION.md`).
 
 **Test results (verified):** 81 Direct Mode tests passed; GenVM lint and SDK validation passed; 3 Studionet
-integration tests passed; live MET and BREACHED claims recorded on the canonical contract (all txs ACCEPTED /
-MAJORITY_AGREE, none observed FINALIZED).
+integration tests passed; live MET and BREACHED claims recorded on the canonical contract (deploy tx FINALIZED / MAJORITY_AGREE; probe and claim txs recorded as ACCEPTED / MAJORITY_AGREE).
 
 **Limitations:** probe selection bias, validator egress dependence, availability rather than answer quality, defence-in-depth
 URL checks, not audited, Studionet only. Owner-portfolio collision check incomplete (`DECISION.md`).
